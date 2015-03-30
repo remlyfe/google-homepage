@@ -1,0 +1,124 @@
+html,
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: arial, sans-serif;
+}
+
+#wrapper{
+	min-height: 100%;
+	position: relative;
+}
+
+#header{
+	text-align: right;
+	padding: 20px;
+
+}
+
+#content{
+	padding: 10px;
+	padding-bottom: 40px;
+
+
+}
+
+#footer{
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+}
+
+#logo{
+	height: 95px;
+	width: 269px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 150px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	display: inline;
+	padding-right: 10px;
+	font-size: .85em;
+}
+
+a{
+	text-decoration: none;
+	color: #5a5a5e;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.right{
+	text-align: right;
+	float: right;
+	padding: 10px;
+}
+
+.left{
+	text-align: left;
+	float: left;
+	padding: 10px;
+}
+
+.search{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 15px;
+}
+
+input[type="text"]{
+ 	width: 400px; 
+ 	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 22px;
+ 	 }
+
+input:focus{
+	border: 1px solid #0066CC;
+	line-height: 24px;
+}
+
+#button{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px; 
+	text-align: center;
+}
+
+#sign_in{
+	background-color: #4683EC;
+	color: #fff;
+	border: 1px solid #4285f4;
+	border-radius: 3px;
+	padding: 5px;
+	font-weight: bold;
+}
+#search_btn, #luck_btn{
+	background: #f2f2f2;
+	border: 1px solid #e4e4e4;
+	border-radius: 3px;
+	padding: 3px;
+}
+
+#luck_btn{
+	margin-left: 10px;
+}
